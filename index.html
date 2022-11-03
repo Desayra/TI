@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mueblería IT</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="estilos.css" />
+    </head>
+    <body>
+        <header id="encabezado">
+            <div class="topnav">
+                <a href="index.html">Inicio</a>
+                <a href="registro.html" class="active registrarLink">Registro</a>
+                <a href="servicio.html">Servicio</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </header>
+        <div class="contenedor">
+            <main id="principal">
+                <section>
+                    <h1 id="principal_h1"></h1>
+                    <img id="fondo" src="fondo.jpg" alt="Fondo" />
+                </section>
+
+                <section id="section1">
+                    <p>
+                        La melamina es un material plástico compuesto por resinas que recubre un tablero de aglomerado o de MDF. La melamina es un material sintético duro y resistente, ideal para la fabricación de muebles en general, y de cocina y baño en particular; gracias a que se trata de un material altamente resistente a la presencia de parásitos y microorganismos.
+Los tableros melamínico son cada más usados en la industria del mueble, ya que se ofrecen en una amplia variedad de colores, diseños y texturas. Además, los tableros de melamina son fáciles de trabajar; pudiendo ser cortados, perforados, clavados y fresados. La melamina es un material duradero que resiste bien el calor y que es fácil de limpiar con detergentes domésticos.
+                    </p>
+
+                    <img src="imagen1.jpg" alt="Imagen 1" />
+                </section>
+
+                <section id="section2">
+                    <img src="imagen2.jpg" alt="Imagen 2" />
+
+                    <p>
+                        Comprar muebles de melamina se han convertido con el paso del tiempo en una opción muy bien valorada por los consumidores. Se trata de muebles económicos, con diseños actuales, duraderos y que son fáciles de limpiar.
+
+Comparados con los de madera, los muebles de melamina; si bien pierden la naturalidad de los primeros, presenta la ventaja de la resistencia al agua, sol, altas temperaturas o microorganismos; ya que la resina de la hoja de melamina crea una capa impenetrable.
+Los muebles de madera maciza resultan muy atractivos visualmente y al tacto, pero resultan ser mucho más delicados en cuanto al mantenimiento. Si están bien cuidados, los muebles de madera maciza tienen un bello envejecimiento; pero hay que tener en cuenta que son más delicados ante el agua o el calor.
+
+
+                    </p>
+                </section>
+            </main>
+            
+            <aside id="lateral">
+                
+                <div class="separacion">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <h3 style="font-family: 'Segoe UI'; color: darkslategrey;">ADMINISTRACIÓN</h3>
+                    <form id="formulariologin">
+                        <input
+                            type="password"
+                        />
+
+                        <div>
+                          
+                            <a href="aservicio.html"><button  type="button" id="ingresar">INGRESAR</button>
+                            </a>
+                        </div>
+                    </form>
+                <div id="espacio">
+
+                </div>
+                <h3 style="font-family: 'Segoe UI'; color: darkslategrey;">DISEÑOS</h3>
+                <div id="iconos">
+                   <li><i class="bi bi-check-square-fill"></i>    Cocina</li> 
+                   <li><i class="bi bi-check-square-fill"></i>    Dormitorio</li> 
+                   <li><i class="bi bi-check-square-fill"></i>    Sala</li> 
+                   <li><i class="bi bi-check-square-fill"></i>    Comedor</li> 
+                   <li><i class="bi bi-check-square-fill"></i>    Exteriores</li> 
+                   <li><i class="bi bi-check-square-fill"></i>    Baño</li> 
+                </div> 
+                <div id="espacio">
+
+                </div>
+                <div class="separacion">
+                    <h3 style="font-family: 'Segoe UI'; color: darkslategrey;">CONVERSOR DÓLAR a Bs./Bs. a DÓLAR</h3>
+
+                    <form id="formularioconversor">
+                        <input
+                            type="number"
+                            placeholder="Ingrese valor"
+                            id="input_bolivianos"
+                        />
+                        <input
+                            id="input_mc"
+                            type="number"
+                            placeholder="Valor convertido"
+                            readonly
+                            disabled
+                        />
+                        <select id="select_mc">
+                            <option value="USD" selected>Dólares ($)</option>
+                            <option value="EU">Bolivianos (Bs.)</option>
+                        </select>
+
+                        <div>
+                            <div id="espacio1">
+
+                            </div>
+                            <button type="button" id="convertir">
+                                CONVERTIR
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </aside>
+        </div>
+
+
+                </div>
+
+                
+        <!-- PIE DE PAGINA -->
+        <footer>
+            <div class="caja">
+                <center><h5>-</h5></center>
+                <center><p>-</p></center>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+
+    </body>
+</html>
